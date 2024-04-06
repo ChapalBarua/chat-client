@@ -4,13 +4,14 @@
     align-items: center;
 }
 
-.chat-container .chat-box {
-    /* margin: 4rem;
-    margin-top: 0%; */
-    min-width: 50rem;
+.chat-container .card-body {
+    height: 60vh;
+    width: 100vh;
+    overflow: auto;
 }
 
-.chat-container .card-body {
-    height: 35rem;
-    overflow: scroll;
+@media (max-width: 978px)  {
+    .chat-container .card-body {
+        width: 40vh;
+   }
 }

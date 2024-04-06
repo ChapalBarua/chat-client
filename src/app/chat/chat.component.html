@@ -1,7 +1,7 @@
 <header>
     <nav class="navbar navbar-light bg-light">
-        <div class="container-fluid">
-            <span class="navbar-brand mb-0 h1">Angular Chat Application</span>
+        <div class="container-fluid d-flex justify-content-center">
+            <span class="navbar-brand mb-0 h1 ">Welcome to Chapal's Chat Room</span>
         </div>
     </nav>
 </header>
@@ -26,7 +26,7 @@
                 <div class="card-footer">
                     <form (ngSubmit)="sendmessage(wsMessageForm)" #wsMessageForm="ngForm">
                         <div class="chat-send row">
-                            <div class="col-2">
+                            <div class="col-3">
                                     {{user}}
                             </div>
                             <div class="col-8">
