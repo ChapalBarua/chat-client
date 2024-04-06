@@ -11,7 +11,7 @@ export class WebSocketService {
     websocketMessage: WebsocketChat[] = [];
 
     openWebSocketConnection(){
-        this.websocket = new WebSocket('ws:chapalbarua.com:3000')
+        this.websocket = new WebSocket('ws:3.89.191.5:3000')
         this.websocket.onopen = e=>{console.log(e)};
         this.websocket.onmessage = e=>{
             console.log(e);
